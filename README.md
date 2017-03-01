@@ -14,6 +14,7 @@
 
 * 建立站点时使用[PHPCMSv9](http://www.phpcms.cn/v9/)管理内容，并使用[IEBook](http://iebook.cn/)创建Flash电子书。
 * 由于最终生成的是静态内容，内容仅是展示型，无其他代码，所以本仓库只提供生成的静态页面。
+* Flash电子书不能使用`file:///`协议运行，必须使用`http://`或`https://`协议才可以
 
 ## LICENSE
 
