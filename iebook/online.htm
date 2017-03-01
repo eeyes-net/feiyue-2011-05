@@ -1,0 +1,39 @@
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="zh-CN" lang="zh-CN">
+<head>
+<title>标准组件-iebook第一门户在线电子杂志，电子杂志制作软件-iebook超级精灵</title>
+<meta name="description" content="电子杂志制作软件-iebook超级精灵,电子杂志制作,企业电子杂志,企业电子商刊制作" />
+<meta name="keywords" content="标准组件,iebook第一门户在线电子杂志，电子杂志制作软件-iebook超级精灵" />
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<script language="javascript">
+function EzineCommand(com,arg){
+	if(com=="settarget"){
+		getSWF("Player").AppCommand("setconfig","{$config}");
+	}
+	if(com=="quit"){
+		window.close();
+	}
+	if(com=="CopyUrl"){
+		window.clipboardData.setData("Text",document.location.href);
+   		alert("复制成功！");
+	}
+}
+function getSWF(movieName) {
+		if (navigator.appName.indexOf("Microsoft") != -1) {
+			return window[movieName];
+		} else {
+			return document.getElementById(movieName);
+		}
+		
+	}
+</script>
+</head>
+<body bgcolor="#ffffff" style="Margin:0px">
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase="http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=8,0,0,0" name="Player" width="100%" height="100%" align="middle" id="Player">
+<param name="allowScriptAccess" value="sameDomain" />
+<PARAM NAME="AllowFullScreen" VALUE="true" />
+<param name="movie" value="loading.swf" /><param name="loop" value="false" /><param name="menu" value="false" /><param name="quality" value="high" /><param name="bgcolor" value="#ffffff" /><param name="SCALE" value="noscale"><embed src="loading.swf" width="100%" height="125%" loop="false"  align="middle" id="Player" menu="false" quality="high" bgcolor="#ffffff" allowScriptAccess="sameDomain" allowFullScreen="true" type="application/x-shockwave-flash" pluginspage="http://www.macromedia.com/go/getflashplayer" scale="noscale" name="Player" />
+</object>
+<script language="javascript" src="objectSwap.js"></script>
+<div style="overflow:hidden;width:10px;height:10px; position:absolute;top:0px;left:0px; z-index:-2"></div>
+</body>
+</html>
